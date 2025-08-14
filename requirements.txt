@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scipy
+pyproj
+tk
+pykml
+shapely
+geopandas
+earthengine-api
+geemap
+folium
