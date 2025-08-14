@@ -13,10 +13,10 @@ from folium.raster_layers import ImageOverlay
 
 # === Authenticate and Initialize Earth Engine ===
 try:
-    ee.Initialize(project='visualization-446005')
+    ee.Initialize(project='mynewproject-469023')
 except Exception:
     ee.Authenticate()
-    ee.Initialize(project='visualization-446005')
+    ee.Initialize(project='mynewproject-469023')
 
 
 def extract_kmz_points_and_bounds(kmz_path: str, extract_dir: str = "extracted"):
